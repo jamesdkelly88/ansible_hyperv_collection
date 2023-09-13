@@ -17,7 +17,6 @@ try
     $result.add("domain_name",$hv.FullyQualifiedDomainName)
     $result.add("logical_processor_count",$hv.LogicalProcessorCount)
     $result.add("memory_capacity",$hv.MemoryCapacity)
-    $result.add("iov_support",$hv.IovSupport)
     $result.add("supported_vm_versions",$hv.SupportedVMVersions)
     $result.add("virtual_machine_path",$hv.VirtualMachinePath)
     $result.add("virtual_hard_disk_path",$hv.VirtualHardDiskPath)
